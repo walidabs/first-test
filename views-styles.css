@@ -1,0 +1,904 @@
+/**
+ * @file
+ * Views Styling
+ */
+
+
+/*
+ * Views' admin tabs
+ *
+ * The views admin tabs use the same classes as the secondary tabs. We prevent
+ * some of our tab styling from bleeding into (and breaking) the Views admin
+ * pages. If your sub-theme isn't used for admin pages, you can remove this
+ * entire section.
+ */
+
+.views-exposed-form .views-exposed-widget .form-submit {
+margin-top: 0em;
+}
+
+
+
+/* Related Resource Block */
+
+
+
+
+
+#stat-box {
+ padding:5px;
+    border-bottom:1px solid #000;
+    border-left:1px solid #000;
+    border-right:1px solid #000;
+    font-size: 16px;
+}
+
+#conflict-legend {
+    border:1px dotted #000;
+    background-color: #f2f2f2;
+    padding:5px;
+    margin-bottom: 7px;
+    margin-top:5px;
+}
+
+#title-conflict-map {
+    font-weight: bold;
+    font-size: 18px;
+    padding-top: 10px;
+    border-bottom: 1px solid #000;
+}
+
+#edit-field-actors-parties-involved-target-id-entityreference-filter-wrapper {
+    width:305px;
+}
+
+#edit-field-actors-parties-involved-target-id-entityreference-filter {
+    width:305px;
+}
+
+.views-widget-filter-field_date_of_incident_value {
+    width:230px;
+}
+
+.views-widget-filter-field_death_toll_value {
+    width:195px;
+}
+
+.views-widget-filter-field_number_of_injured_value {
+    width:195px;
+}
+
+
+.conflict-sources-label {
+    font-weight: bold;
+    border-bottom: 1px solid #000;
+    margin-bottom: 5px;
+    padding:3px;
+    background-color: #666;
+    color:white;
+    margin-top: 10px;
+}
+
+.conflict-sources-content {
+    border:1px dotted #000;
+    background-color: #f2f2f2;
+    padding:3px;
+}
+
+.conflict-sources-content .term-title {
+    font-weight:bold;
+    font-style: italic;
+}
+
+
+.conflict-sources-content p {
+    padding:0;
+}
+
+#edit-field-report-type-of-violation-tid-wrapper {
+/*	width: 220px;*/
+}
+
+.view-mode-associated_dynamic_map {
+	padding: 5px;
+	display: block;
+	background-color: #f2f2f2;
+	width: 450px;
+	margin-bottom: 15px;
+	border-left: 5px solid #39b54a;
+}
+
+
+#widget {
+    padding:10px;
+    background: #fff;
+}
+
+.map-notice {
+ background: #e5e5e5;
+ font-size: 13px;
+color:#191919;
+    width:100%;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding:3px;
+
+}
+
+.map-footer-title {
+    display: block;
+    background: #e5e5e5;
+ font-size: 13px;
+color:#191919;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding:3px;
+    float:right;
+    padding-left: 10px;
+    margin-left: 10px;
+    text-align: right;
+    font-weight:bold;
+}
+
+#ip-geoloc-map-of-view-gbv_map_kafa-page-3e7e32cb75d248d9150f2e0d4403a7aa {
+    display: block;
+}
+
+.map-footer-content {
+
+    width:960px;
+}
+
+.map-branding {
+    margin-right: 5px;
+    display: block;
+    width:960px;
+    float:right;
+}
+
+.map-branding img {
+    height:75px;
+    padding-left: 5px;
+    padding-right: 5px;
+    float:right;
+}
+
+#related-res-header {
+    font-weight: bold;
+    background: #F5F5F1;
+    font-size: 14px;
+    margin-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width:300px;
+    border-top:1px solid #d1d1d1;
+    border-bottom:1px solid #d1d1d1;
+}
+
+.related-res a {
+    font-size: 13px;
+    font-style: italic;
+}
+
+.related-pub {
+    font-size: 13px;
+}
+
+.related-item {
+    margin-bottom:10px;
+    margin-top: 10px;
+    background: #F5F5F1;
+    width:289px;
+    padding-left:5px;
+    padding-right:5px;
+    border-left:6px solid #66A935;
+}
+
+.related-item:hover {
+    border-left:6px solid #019246;
+}
+
+
+
+
+
+
+
+
+#edit-field-human-rights-violation-typ-tid {
+
+}
+/* RAC Page [PANEL] layout style */
+#rac-panel {
+	margin-top: 40px;
+}
+
+#rac-panel .panel-col-first {
+	width: 500px;
+	margin-right: 10px;
+}
+
+#rac-panel .panel-col {
+	width: 200px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+#rac-panel .panel-col-last {
+	width: 200px;
+	margin-left:20px;
+}
+
+/* RAC annoucements & calls */
+
+.rac-ann a:link  {
+	font-size:15px;
+	background-color:#999999;
+	padding:5px;
+	color:#ffffff;
+	display:block;
+
+}
+
+.rac-ann a:visited {
+	font-size:15px;
+	background-color:#999999;
+	padding:5px;
+	color:#ffffff;
+	display:block;
+}
+
+.rac-ann {
+	width:200px;
+
+}
+
+.rac-ann {
+	font-size:15px;
+	background-color:#999999;
+	padding:5px;
+	color:#ffffff;
+	display:block;
+	margin-top:7px;
+}
+
+.rac-ann-body {
+	margin-bottom:10px;
+	text-align:justify;
+	padding:3px;
+	background-color:#f2f2f2;
+	width:202px;
+}
+
+#announce-header {
+	width: 200px;
+	height: 65px;
+	background-color: #999999;
+	display: block;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+
+#announce-title {
+	margin-left: 0px;
+	margin-top: 5px;
+	font-family: Georgia,"Times New Roman",Times,serif;
+	font-size: 25px;
+	font-style: italic;
+	color: #ffffff;
+ line-height:1em;
+}
+
+/* RAC papers & Studies */
+
+#papers-header {
+	width: 500px;
+	height: 65px;
+	background-color: #39b54a;
+	display: block;
+	padding: 5px;
+    margin-bottom: 15px;
+}
+
+#papers-header-page {
+	/*width:100%;*/
+	height: 65px;
+	background-color: #39b54a;
+	display: block;
+	padding: 5px;
+}
+
+#papers-header-title {
+	margin-left: 0px;
+	margin-top: 5px;
+	font-family: Georgia,"Times New Roman",Times,serif;
+	font-size: 25px;
+	font-style: italic;
+	color: #ffffff;
+	text-align:justify;
+
+
+}
+
+#papers-header-title p {
+
+}
+
+#rac-papers-item {
+	min-height:110px;
+	margin-bottom:10px;
+}
+
+#rac-papers-list p {
+	text-align:justify;
+    margin: 0;
+    padding: 0;
+}
+
+.views-field-field-formatted-summary {
+    border-bottom: 8px solid #ECECEC;
+    margin-bottom:20px;
+}
+
+#rac-papers-title a {
+    font-size: 15px;
+    line-height: 18px;
+}
+
+#rac-papers-img img {
+	margin-bottom:5px;
+	margin-top:3px;
+}
+
+.pane-rac-papers-block .more-link a:link {
+	background:#39b54a;
+	padding:3px;
+	color:#ffffff;
+	font-size:13px;
+}
+
+.pane-rac-papers-block .more-link a:visited {
+	background:#009640 ;
+	padding:3px;
+	color:#ffffff;
+	font-size:13px;
+}
+.pane-cma-brief-thematic-report .more-link a:link{
+	background:#009640;
+	padding:3px;
+	color:#ffffff;
+	font-size:13px;
+	margin-bottom:10px;
+}
+.pane-cma-brief-thematic-report .more-link a:visited {
+	background:#009640;
+	padding:3px;
+	color:#ffffff;
+	font-size:13px;
+}
+.pane-spot-on-actors .more-link {
+margin-bottom: 20px;
+}
+.pane-spot-on-actors .more-link a:link{
+	background:#36A9E0;
+	padding:3px;
+	color:#ffffff;
+	font-size:13px;
+}
+.pane-spot-on-actors .more-link a:visited {
+	background:#36A9E0;
+	padding:3px;
+	color:#ffffff;
+	font-size:13px;
+}
+.p-author-label {
+    font-weight: bold;
+}
+
+.p-author {
+    font-style: italic;
+}
+
+.p-date {
+}
+
+
+
+/* RAC Podcasts */
+#podcasts-header {
+	width: 200px;
+	height: 65px;
+	background-color: #39b54a;
+	display: block;
+	padding: 5px;
+	margin-bottom: 5px;
+}
+
+#podcasts-header-title {
+	margin-left: 0px;
+	margin-top: 5px;
+	font-family: Georgia,"Times New Roman",Times,serif;
+	font-size: 25px;
+	font-style: italic;
+	color: #ffffff;
+ line-height:1em;
+}
+
+
+
+#podcast-item {
+	width: 200px;
+	padding-right: 5px;
+	padding-left:10px;
+	padding-bottom:10px;
+	padding-top:10px;
+}
+#podcast-item a {
+	margin-top: 5px;
+	font-family: Georgia,"Times New Roman",Times,serif;
+	font-size: 13px;
+}
+#podcast-item a visited{
+
+}
+
+#podcast-icon img {
+margin-right: 5px;
+margin-top: 7px;
+float: left;
+}
+
+.pane-rac-podcasts .more-link a:link {
+	background:#39B54A;
+	padding:3px;
+	color:#ffffff;
+	font-size:13px;
+ }
+ .pane-rac-podcasts .more-link a:visited {
+	background:#39B54A;
+	padding:3px;
+	color:#ffffff;
+	font-size:13px;
+}
+
+#podcast-title {
+
+
+}
+
+#podcast-date {
+
+	font-style: italic;
+	font-family: Georgia,"Times New Roman",Times,serif;
+
+}
+
+#rac-disclaimer {
+	width: 500px;
+	background-color: #39b54a;
+	display: block;
+	padding: 5px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#fff;
+	font-size:11px;
+	font-style:italic;
+	margin-top:10px;
+}
+
+/* END RAC Page [PANEL] Styling */
+
+
+/* Resources Page */
+
+.res-img img {
+	float:left;
+	margin-right:7px;
+	border:3px solid #000;
+}
+
+
+#popupbox {
+	width: 300px;
+	font-size: 11px;
+	font-family: verdana;
+}
+
+#hrv-box {
+	width:300px;
+}
+.security-marker img {
+	width:20px;
+}
+
+.lib-row td {
+	vertical-align:top;
+padding-right:5px;
+}
+
+.cover-lib img {
+	margin-right:5px;
+	width:100px;
+	background: #FAFAFA;
+border: 1px solid #E4E4E4;
+padding: 8px;
+float:none;
+
+}
+.cover-lib {
+	width:120px;
+}
+
+.views-displays .secondary li {
+  float: none;
+  margin: 0 6px 0;
+}
+
+.views-displays .secondary a:link,
+.views-displays .secondary a:visited {
+  text-shadow: none;
+  padding: 2px 7px 3px;
+}
+
+.views-displays .secondary .open > a {
+  -webkit-border-radius: 7px 7px 0 0;
+  -moz-border-radius: 7px 7px 0 0;
+  -ms-border-radius: 7px 7px 0 0;
+  -o-border-radius: 7px 7px 0 0;
+  border-radius: 7px 7px 0 0;
+}
+
+.views-displays .secondary .open > a:hover {
+  color: #333;
+}
+
+.views-displays .secondary .action-list li {
+  margin: 0;
+}
+
+.views-displays .secondary .action-list li:first-child {
+  -webkit-border-radius: 0 7px 0 0;
+  -moz-border-radius: 0 7px 0 0;
+  -ms-border-radius: 0 7px 0 0;
+  -o-border-radius: 0 7px 0 0;
+  border-radius: 0 7px 0 0;
+}
+
+.views-displays .secondary .action-list li:last-child {
+  -webkit-border-radius: 0 0 7px 7px;
+  -moz-border-radius: 0 0 7px 7px;
+  -ms-border-radius: 0 0 7px 7px;
+  -o-border-radius: 0 0 7px 7px;
+  border-radius: 0 0 7px 7px;
+}
+
+.res-cover {
+
+}
+
+.res-row {
+
+}
+
+.res-syn-label {
+border-bottom:1px solid #666;
+width:350px;
+display:block;
+}
+
+.res-syn-wrap p {
+	margin-top:0;
+	padding-top:0;
+}
+
+.res-page-label {
+	font-weight:600;
+}
+
+
+#edit-field-type-of-violation-tid-wrapper {
+	font-size: 11px;
+	color: #333;
+	border:1px dotted #333;
+	padding: 5px;
+}
+
+#edit-submit-hrv-mapping {
+	margin-top:0px;
+}
+
+#edit-reset {
+	margin-top:0px;
+}
+
+#edit-submit-villagedatabase {
+	margin-top:0px;
+}
+
+#ip-geoloc-map-of-view-villagedatabase-page-8bd9f8384a4dd19d19058784524522a6 {
+	border: 2px dashed #000;
+	margin-top: 7px;
+}
+
+#views-exposed-form-villagedatabase-page {
+	border: 2px dashed #000;
+	padding: 3px;
+}
+
+#block-block-1 p {
+	margin-top: 5px;
+	padding: 5px;
+	border: 2px dashed #000;
+}
+
+#block-block-2 {
+	margin-top: 5px;
+	padding: 5px;
+	border: 2px dashed #000;
+}
+
+#block-block-2 p {
+	margin-top: 2px;
+}
+
+#ip-geoloc-map-of-view-hrv_syrian_refugees-page-a375d5e560e0050e7713d8b0481fd50f {
+	margin-top: 7px;
+}
+
+#views-exposed-form-hrv-syrian-refugees-page {
+	padding: 3px;
+}
+
+#edit-submit-hrv-syrian-refugees {
+	margin-top: 0;
+}
+
+/* CMA Page Blocks */
+
+#cntxt-header {
+	/*width: 500px;
+	height: 20px;*/
+	background-color: #39b54a;
+	display: block;
+	padding: 5px;
+    margin-bottom: 15px;
+}
+/************************ Event Summary Pages *******************/
+
+
+/************************ End Of Event Summary Pages *******************/
+
+/************** GENDER PAGE STYLING ************************/
+.gen-ann { /* call for contributions */
+	font-size:15px;
+	background-color:#999999;
+	padding:5px;
+	color:#ffffff;
+	display:block;
+	margin-top:7px;
+	width:314px;
+	text-decoration:underline;
+	font-weight:bold;
+}
+.gen-ann a:link  { /* call for contributions */
+	font-size:15px;
+	background-color:#999999;
+	padding:5px;
+	color:#ffffff;
+	display:block;
+
+}
+
+.gen-ann a:visited {/* call for contributions */
+	font-size:15px;
+	background-color:#999999;
+	padding:5px;
+	color:#ffffff;
+	display:block;
+}
+.pane-gen-featured-paper .more-link a:link {
+background: #39b54a;
+padding: 3px;
+color: #ffffff;
+font-size: 13px;
+}
+.pane-gen-featured-paper .more-link a:visited {
+background: #39b54a;
+padding: 3px;
+color: #ffffff;
+font-size: 13px;
+}
+#gen-resources-more a:link {
+float:right;
+background: #A2195B;
+padding: 2px;
+color: #ffffff;
+font-size: 13px;
+
+}
+#gen-resources-more a:visited {
+float:right;
+background: #A2195B;
+padding: 2px;
+color: #ffffff;
+font-size: 13px;
+margin-top:7px;
+}
+/***************** Gen Event Summaries ******************/
+#gen-event-header {
+
+    width: 310px;
+    background: #39b54a;
+    padding: 5px;
+    font-size: 18px;
+    color: #fff;
+    margin-left: 5px;
+}
+
+#gen-event-title {
+	margin-left: 0px;
+	margin-top: 5px;
+	font-family: Georgia,"Times New Roman",Times,serif;
+	color: #ffffff;
+ line-height:1em;
+}
+
+#gen-event-item a {
+	margin-top: 5px;
+	font-family: Georgia,"Times New Roman",Times,serif;
+	font-size: 13px;
+}
+#gen-event-item a visited{
+
+}
+#gen-event-item {
+	padding-right: 5px;
+	padding-left:10px;
+	padding-bottom:10px;
+	padding-top:10px;
+}
+
+#gen-event-icon img {
+margin-right: 5px;
+margin-top: 7px;
+float: left;
+}
+
+#gen-event-title {
+
+
+}
+
+#gen-event-date {
+	font-style: italic;
+	font-family: Georgia,"Times New Roman",Times,serif;
+}
+
+/***************** End Gen Event Summaries *************/
+/************** END OF GENDER STYLING **********************/
+
+
+/**************** BEGIN VIEWS SLIDESHOW ACTORS DISCOURSE **********************************/
+#discourse-slide-pager img{
+float:left;
+padding-right: 15px;
+margin-top: 20px;
+}
+/**************** END VIEWS SLIDESHOW ACTORS DISCOURSE **********************************/
+/******************* Fix for the 2nd cloumn ****************/
+/*
+aside {
+float:right;
+margin: 35px 5px 0px 5px;
+}
+/************ End of fix for the 2nd column ******************/
+
+/********************* Hum resources more ***********/
+#hum-resources-more a:link {
+float:right;
+background: #0047f5;
+padding: 2px;
+color: #ffffff;
+font-size: 13px;
+margin-top:7px;
+}
+#hum-resources-more a:visited {
+float:right;
+background: #0047f5;
+padding: 2px;
+color: #ffffff;
+font-size: 13px;
+margin-top:7px;
+}
+/****************** END OF Hum resources more **************/
+
+/************************* HUM Vulnerability Sheets **************/
+.hum-vul {
+margin-top: 10px;
+margin-left:8px;
+margin-bottom: 22px;
+}
+
+.hum-text {
+float: right;
+margin-top: 30px;
+margin-left: 70px;
+}
+
+.hum-vul-title {
+color: #36A9E0;
+font-size: 16px;
+font-weight: bold;
+margin-left: 11px;
+}
+
+.hum-vul-title a:link {
+
+color: #36a9e0;
+font-size: 16px;
+font-weight: bold;
+margin-top: 15px;
+margin-left: 11px;
+}
+
+.hum-vul-title a:visited {
+color: #36a9e0;
+font-size: 16px;
+font-style: bold;
+margin-top: 15px;
+margin-left: 11px;
+}
+
+.hum-vul-img {
+float: left;
+width: 50px;
+height: 50px;
+}
+.hum-vul-date{
+margin-left: 60px;
+}
+
+/******************** End of Hume Vulnerability Sheets ******************/
+/******************** HUM EVENTS *************************/
+#hum-event-header {
+    width: 310px;
+    background: #39b54a;
+    padding: 5px;
+    font-size: 18px;
+    color: #fff;
+    margin-left: 5px;
+    margin-top:30px;
+}
+
+/********************* END OF HUM EVENTS *****************/
+
+/****************** PDF Reader **************/
+
+a.pdf-reader-download-link {
+margin-left: 110px;
+  font-weight: 600;
+}
+/********************* END PDF Reader ******************/
+
+/**************** more buttons **************/
+
+.view-gen-latest-resources > div:nth-child(2) > a:nth-child(1){ /* CMA RESOURCES BLOCK MORE */
+background:#009640;
+	padding:3px;
+	color:#ffffff;
+	font-size:13px;
+
+}
+.view-numbers-and-figures > div:nth-child(2) > a:nth-child(1) { /* CMA Numbers and Figures */
+background:#36A9E0;
+	padding:3px;
+	color:#ffffff;
+	font-size:13px;
+
+	}
+.view-gen-newsletters > div:nth-child(2) > a:nth-child(1){ /* Gender Newsletter Block */
+background:#36A9E0;
+	padding:3px;
+	color:#ffffff;
+	font-size:13px;
+}
+/************** end of more buttons ************/
